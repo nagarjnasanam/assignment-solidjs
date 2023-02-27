@@ -4,6 +4,7 @@ import Footer from './components/Footer';
 import Menu from './components/Menu';
 import Recipes from './pages/Recipes'
 import { Router, Routes, Route, Link } from "solid-app-router";
+import Meal from './pages/Meal'
 
 
 const App: Component = () => {
@@ -16,6 +17,7 @@ const App: Component = () => {
      <Routes>
             <Route path="/" element={<Menu />} />
             <Route path="/recipes" element={<Recipes />} />
+            <Route path="/meal" element={<Meal />} />
           
           </Routes>
      </Router>

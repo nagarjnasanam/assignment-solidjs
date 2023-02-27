@@ -19,7 +19,7 @@ const Nav: Component = () => {
                     <div class="navbar-nav ms-auto py-0 pe-4">
                         <a href="/" class="nav-item nav-link active">Home</a>
                         <a href="/recipes" class="nav-item nav-link">Recipes</a>
-                        <a href="service.html" class="nav-item nav-link">Service</a>
+                        <a href="meal" class="nav-item nav-link">Meal</a>
                         <a href="menu.html" class="nav-item nav-link">Menu</a>
                         <div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
